@@ -7,7 +7,7 @@ email:
 description: "AI & Neuroscience Learning Log"
 twitter_username: username
 github_username: cemersu
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
 
 # BU SATIR ÇOK ÖNEMLİ (Sitenin düzgün görünmesi için)
