@@ -13,7 +13,7 @@ toc: true
 toc_label: "Experiment Log"
 toc_sticky: true
 header:
-  teaser: /assets/images/titanic-cover.jpg
+  teaser: /assets/images/titanic-img/titanic-cover.jpg
 ---
 
 Welcome back to the lab. 🧪
@@ -28,7 +28,7 @@ Here is my log of the experiment.
 
 First, I needed to import the necessary tools. I used `pandas` for handling the data and various modules from `sklearn` for the models and metrics.
 
-![Importing Libraries](/assets/images/import.png)
+![Importing Libraries](/assets/images/titanic-img/import.png)
 
 ## 2. Preparing the Data
 
@@ -36,7 +36,7 @@ Data never comes clean. For this experiment, I focused on the 'train' dataset. I
 
 Then, I used `train_test_split`. This is crucial because we need to hide some data from the model to test it fairly later. I set aside 30% of the data for testing.
 
-![Splitting Data](/assets/images/split.png)
+![Splitting Data](/assets/images/titanic-img/split.png)
 
 ## 3. The Critical Lesson: To Scale or Not to Scale?
 
@@ -48,13 +48,13 @@ To fix this, I used `StandardScaler` to normalize the data for KNN.
 
 However, **Decision Trees** don't care about distance; they just ask "Is X greater than 5?". So, scaling isn't strictly necessary for them, but it is vital for KNN.
 
-![Scaling and Training KNN](/assets/images/scale-and-train-knn.png)
+![Scaling and Training KNN](/assets/images/titanic-img/scale-and-train-knn.png)
 
 ## 4. Training the Decision Tree
 
 Next, I trained the Decision Tree. I limited the `max_depth` to 3. Why? Because if a tree gets too deep, it memorizes the data (overfitting) instead of learning the patterns. I wanted a simple, generalizeable model.
 
-![Training Decision Tree](/assets/images/train-dt.png)
+![Training Decision Tree](/assets/images/titanic-img/train-dt.png)
 
 ## 5. The Results: Who Won?
 
@@ -62,11 +62,11 @@ After training both models, I made them predict the survival of the passengers i
 
 I calculated the accuracy score for both.
 
-![Calculating Accuracy](/assets/images/accuracy-calculation.png)
+![Calculating Accuracy](/assets/images/titanic-img/accuracy-calculation.png)
 
 Finally, I wrote a simple logic to compare them and announce the winner automatically.
 
-![Comparison Logic](/assets/images/comparing-accuracy.png)
+![Comparison Logic](/assets/images/titanic-img/comparing-accuracy.png)
 
 ## Conclusion
 
