@@ -5,22 +5,31 @@
 title: Ersu's Lab
 email:
 description: "AI & Neuroscience Learning Log"
-twitter_username: username
+# Sosyal medya kullanıcı adlarını boş bıraktım
+twitter_username: 
 github_username: cemersu
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: dark # Karanlık Mod
 search: true
 
-# BU SATIR ÇOK ÖNEMLİ (Sitenin düzgün görünmesi için)
-url: "https://cemersu.github.io" 
+# Sitenin Adresi
+url: "https://cemersu.github.io"
 
-# Build settings
+# Build settings (MATEMATİK AYARI)
 markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax # Matematik motoru
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
-timezone: Europe/Istanbul # Senin için ayarladım
+timezone: Europe/Istanbul
 
 include:
   - _pages
@@ -36,28 +45,14 @@ plugins:
 
 author:
   name: "Cem ERSU"
-  avatar: "/assets/images/bio-photo.png"
+  avatar: "/assets/images/ersu.jpg"
   bio: "AI & Neuroscience Learning Log"
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://cemersu.github.io"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+  # Sosyal medya linkleri silindi
+  links: []
 
 footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-
+  # Footer linkleri silindi
+  links: []
 
 defaults:
   # _posts
