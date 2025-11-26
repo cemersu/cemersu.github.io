@@ -45,7 +45,7 @@ plugins:
 # BURAYA DİKKAT: Dosya ismin GitHub'da tam olarak neyse (JPG, jpeg, png) aynısını yaz!
 author:
   name: "Cem ERSU"
-  avatar: "/assets/images/ersu.jpg"
+  avatar: "/assets/images/cem.jpg"
   bio: "AI & Neuroscience Learning Log"
   links: []
 
