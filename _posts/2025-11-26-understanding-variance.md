@@ -80,7 +80,7 @@ This is the **Standard Deviation ($\sigma$)**. It tells us, on average, how far 
 | Concept | Formula | Why use it? |
 | :--- | :--- | :--- |
 | **Mean** | $\mu$ | To find the center. |
-| **MAD** | $\sum \|x - \mu\|$ | Intuitive, but hard to do calculus with. |
+| **MAD** | $\sum |x - \mu|$ | Intuitive, but hard to do calculus with. |
 | **Variance** | $\sigma^2$ | Mathematically smooth, punishes outliers. |
 | **Std. Dev** | $\sigma$ | Same as variance, but in readable units. |
 
