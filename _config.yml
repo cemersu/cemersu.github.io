@@ -5,20 +5,19 @@
 title: Ersu's Lab
 email:
 description: "AI & Neuroscience Learning Log"
-# Sosyal medya kullanıcı adlarını boş bıraktım
 twitter_username: 
 github_username: cemersu
-minimal_mistakes_skin: dark # Karanlık Mod
+minimal_mistakes_skin: dark
 search: true
 
-# Sitenin Adresi
+# URL Ayarı
 url: "https://cemersu.github.io"
 
-# Build settings (MATEMATİK AYARI)
+# 1. MATEMATİK MOTORU AYARI (Kritik)
 markdown: kramdown
 kramdown:
   input: GFM
-  math_engine: mathjax # Matematik motoru
+  math_engine: mathjax
   syntax_highlighter_opts:
     block:
       line_numbers: true
@@ -34,7 +33,6 @@ timezone: Europe/Istanbul
 include:
   - _pages
 
-# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -43,15 +41,15 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# 2. PROFİL FOTOĞRAFI AYARI
+# BURAYA DİKKAT: Dosya ismin GitHub'da tam olarak neyse (JPG, jpeg, png) aynısını yaz!
 author:
   name: "Cem ERSU"
   avatar: "/assets/images/ersu.jpg"
   bio: "AI & Neuroscience Learning Log"
-  # Sosyal medya linkleri silindi
   links: []
 
 footer:
-  # Footer linkleri silindi
   links: []
 
 defaults:
@@ -66,6 +64,7 @@ defaults:
       comments: true
       share: true
       related: true
+      mathjax: true # <-- İŞTE BU SATIR MATEMATİĞİ ZORLA AÇAR!
   # _pages
   - scope:
       path: "_pages"
