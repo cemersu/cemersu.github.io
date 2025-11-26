@@ -28,7 +28,7 @@ When I first learned variance, I was confused. Why do we sometimes divide by $n$
 
 I drew this out to make it stick:
 
-![Variance and Standard Deviation Notes](/assets/images/stats-handwritten-1.jpg)
+![Variance and Standard Deviation Notes](/assets/images/stats-u123-img/stats-handwritten-1.jpg)
 
 ### My Key Takeaways:
 * **The Mean ($\mu$):** This is just the center of gravity. In my example `[1, 2, 3, 3, 5]`, the mean sits at **2.8**.
@@ -43,7 +43,7 @@ In any experiment (or when tracking my own bio-data), anomalies happen. A sensor
 
 Enter the **Box Plot** and the **1.5 IQR Rule**.
 
-![Box Plot and IQR Rule Notes](/assets/images/stats-handwritten-2.jpg)
+![Box Plot and IQR Rule Notes](/assets/images/stats-u123-img/stats-handwritten-2.jpg)
 
 ### The Logic:
 1.  **The Box:** Represents the middle 50% of the data.
