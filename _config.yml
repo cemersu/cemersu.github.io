@@ -36,7 +36,7 @@ plugins:
 
 author:
   name: "Cem ERSU"
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/bio-photo.png"
   bio: "AI & Neuroscience Learning Log"
   links:
     - label: "Website"
