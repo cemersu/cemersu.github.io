@@ -13,7 +13,7 @@ toc: true
 toc_label: "Experiment Log"
 toc_sticky: true
 header:
-  teaser: /assets/images/titanic-img/titanic-cover.jpg
+  teaser: /assets/images/titanic-img/titanic-cover.png
 ---
 
 Welcome back to the lab. 🧪
