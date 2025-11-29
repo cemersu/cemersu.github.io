@@ -85,3 +85,9 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+# Google Analytics Ayarları
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-T3YS9NZNN8" # Buraya G- ile başlayan kodunu yapıştır
+    anonymize_ip: true
