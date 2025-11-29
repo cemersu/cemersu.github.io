@@ -4,7 +4,7 @@
 
 title: Ersu Labs
 email: contact@ersulabs.com
-description: "AI Learning Log"
+description: "Deep learning from scratch. Mathematics and algorithmic implementations of ML models."
 twitter_username: 
 github_username: cemersu
 minimal_mistakes_skin: dark
@@ -46,7 +46,7 @@ plugins:
 author:
   name: "Cem ERSU"
   avatar: "/assets/images/cem.jpg"
-  bio: "AI Learning Log"
+  bio: "Unboxing the Black Box. Deconstructing AI algorithms with Math & Python."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
