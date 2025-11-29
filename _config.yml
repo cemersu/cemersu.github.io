@@ -4,7 +4,7 @@
 
 title: Ersu Labs
 email:
-description: "AI & Neuroscience Learning Log"
+description: "AI Learning Log"
 twitter_username: 
 github_username: cemersu
 minimal_mistakes_skin: dark
@@ -46,7 +46,7 @@ plugins:
 author:
   name: "Cem ERSU"
   avatar: "/assets/images/cem.jpg"
-  bio: "AI & Neuroscience Learning Log"
+  bio: "AI Learning Log"
   links: []
 
 footer:
