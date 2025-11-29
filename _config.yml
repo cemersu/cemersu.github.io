@@ -9,7 +9,7 @@ twitter_username:
 github_username: cemersu
 minimal_mistakes_skin: dark
 search: true
-
+favicon: /assets/images/favicon.jpg
 # URL Ayarı
 url: "https://ersulabs.com"
 
