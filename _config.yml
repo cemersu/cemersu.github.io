@@ -3,7 +3,7 @@
 # This config file is meant for settings that affect your whole blog.
 
 title: Ersu Labs
-email:
+email: contact@ersulabs.com
 description: "AI Learning Log"
 twitter_username: 
 github_username: cemersu
@@ -11,7 +11,7 @@ minimal_mistakes_skin: dark
 search: true
 
 # URL Ayarı
-url: "https://cemersu.github.io"
+url: "https://ersulabs.com"
 
 # 1. MATEMATİK MOTORU AYARI (Kritik)
 markdown: kramdown
@@ -47,7 +47,13 @@ author:
   name: "Cem ERSU"
   avatar: "/assets/images/cem.jpg"
   bio: "AI Learning Log"
-  links: []
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:contact@ersulabs.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/cemersu"
 
 footer:
   links: []
