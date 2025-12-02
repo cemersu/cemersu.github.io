@@ -48,7 +48,7 @@ author:
   avatar: "/assets/images/cem.jpg"
   bio: "Unboxing the Black Box. Deconstructing AI algorithms with Math & Python."
   links:
-    - label: "Email"
+    - label: "contact@ersulabs.com"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:contact@ersulabs.com"
     - label: "GitHub"
