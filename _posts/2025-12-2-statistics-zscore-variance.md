@@ -61,7 +61,7 @@ Here is the source code for the engine:
 ![Source Code of ErsuStatistics Class](/assets/images/25-12-2-post/class.png)
 
 ### What’s happening here?
-1.  **Automatic Calculation:** As soon as I create an `ErsuStatistics` object, the `__init__` method triggers. It calculates the mean and variance immediately. No need to call extra functions manually.
+1.  **Controlled Execution:** I designed the class to distinguish between "setup" and "execution." The `__init__` method prepares the object, but the heavy math (mean, variance) is triggered only when I explicitly call the `calculate()` method.
 2.  **Bessel’s Correction:** Notice the `(self.n - 1)` in the variance calculation? That’s because we are working with samples, not populations.
 3.  **Comparisons:** I added methods like `compare_variance` and `compare_zscore` to make the objects interact with each other.
 
