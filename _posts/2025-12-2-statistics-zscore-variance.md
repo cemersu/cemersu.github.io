@@ -24,7 +24,7 @@ As data scientists (or aspiring ones like me), we often rely heavily on librarie
 
 To test my understanding, I decided to ignore the libraries for a day. My mission: build a statistical analysis tool using pure Python, focusing on two critical concepts: **Variance** and **Z-Score**.
 
-If you want to understand the foundational concepts of Mean and Standard Deviation better before diving into this code, check out my previous blog post: [**Visualizing Statistics: My Handwritten Notes**]([https://ersulabs.com/statistics/learning/understanding-variance/]).
+If you want to understand the foundational concepts of Mean and Standard Deviation better before diving into this code, check out my previous blog post: [**Visualizing Statistics: My Handwritten Notes**](https://ersulabs.com/statistics/learning/understanding-variance/).
 
 ## 1. The Concepts: Why Should We Care?
 
