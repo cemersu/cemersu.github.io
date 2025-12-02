@@ -49,7 +49,7 @@ Since the blog renderer sometimes struggles with complex notation, and I prefer 
 
 This is the blueprint for our code:
 
-![Handwritten formulas for Z-Score and Variance](/assets/images/stats-formula-sketch.jpg)
+![Handwritten formulas for Z-Score and Variance](/assets/images/25-12-2-post/handnotes.png)
 *(My field notes on the formulas used in the code)*
 
 ## 3. The Experiment: Building `ErsuStatistics`
