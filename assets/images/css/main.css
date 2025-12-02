@@ -1,0 +1,10 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minimal-mistakes";
+
+/* Gist'i Dark Mode'a Çevir */
+.gist {
+    filter: invert(100%) hue-rotate(180deg);
+}
