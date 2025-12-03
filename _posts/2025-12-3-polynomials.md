@@ -25,7 +25,7 @@ Today, I decided to deconstruct high-school algebra and calculus and reconstruct
 ## 1. The Philosophy: Code as Math
 
 The goal was not just to store numbers, but to create an object that behaves like a mathematical entity.
-* It should print like a math equation ($3x^2 - 5$), not a Python list (`[3, 0, -5]`).
+* It should print like a math equation (3x^2 - 5), not a Python list (`[3, 0, -5]`).
 * It should allow direct interaction using standard operators (`+`, `*`).
 * It should be able to differentiate itself (Calculus).
 
@@ -43,7 +43,7 @@ A raw list like `[1, -1, 0, 5]` implies $x^3 - x^2 + 5$. However, writing a logi
 
 ### The Multiplication Challenge
 Adding polynomials is simple linear alignment. Multiplying them is a combinatorial problem.
-$$(ax + b)(cx + d) = acx^2 + adx + bcx + bd$$
+(ax + b)(cx + d) = acx^2 + adx + bcx + bd
 
 To solve this efficienty, I avoided nested lists and used a **Dictionary (Hash Map)** approach:
 1.  Iterate through both coefficient lists.
@@ -62,7 +62,7 @@ Here is the final, working implementation of the `ErsuPolynomials` class:
 
 <script src="https://gist.github.com/cemersu/2962f527cfb5148e0adb38a66532fcc6.js"></script>
 
-Conclusion
+## Conclusion
 Building this from scratch gave me a deeper appreciation for the tools we use daily. It’s one thing to know the power rule; it’s another to teach it to a computer.
 
 ErsuLabs — Deconstructing complexity, stay tuned.
