@@ -62,7 +62,7 @@ This configuration was the clear winner. [cite_start]The model converged within 
 
 [cite_start]As you can see in the plot below, the predictions (blue dots) tightly follow the ideal red diagonal line, proving the model learned the distribution perfectly[cite: 48].
 
-![Experiment 1 Results](/assets/images/mlr-scaling/exp1-results.png)
+![Experiment 1 Results](/assets/images/mlr-scaling/ex1-results.png)
 [cite_start]*(Figure 1: High accuracy fit with $R^2 \approx 0.99$) [cite: 64]*
 
 ## 4. Experiment II: The "Raw Data" Chaos
@@ -76,7 +76,7 @@ This was a disaster. The unnormalized inputs created an elongated loss landscape
 
 [cite_start]I had to reduce the learning rate to a tiny $0.0001$ just to get it to run, and even then, the performance degraded significantly (MAPE 11.52%)[cite: 68]. [cite_start]The scatter plot showed much higher variance (noise) compared to Experiment I[cite: 69].
 
-![Experiment 2 Results](/assets/images/mlr-scaling/exp2-results.png)
+![Experiment 2 Results](/assets/images/mlr-scaling/ex2-results.png)
 
 ## 5. Experiment III: The "Over-Normalization" Trap
 
@@ -89,7 +89,7 @@ This was the most surprising finding. [cite_start]I assumed scaling everything w
 
 This led to the **Vanishing Gradient** problem. Because the target values were so small (< 1), the calculated gradients approached zero. [cite_start]The weights didn't update significantly, and the model got stuck predicting the **mean** of the dataset for every single student[cite: 91, 92].
 
-![Experiment 3 Results](/assets/images/mlr-scaling/exp3-results.png)
+![Experiment 3 Results](/assets/images/mlr-scaling/ex3-results.png)
 [cite_start]*(Figure 3: The "Flatline." The model fails to learn the slope entirely.) [cite: 113]*
 
 ## Conclusion
