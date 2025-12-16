@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-Hi, I’m Ersu. Welcome to Ersu's Lab.
+Hi, I’m Ersu. Welcome to Ersu Labs.
 
 Richard Feynman once said, "If you want to master something, teach it." This blog is built on that very foundation.
 
