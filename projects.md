@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Projelerim
-subtitle: Geliştirdiğim yazılım, yapay zeka ve teknoloji çalışmaları.
+title: Projects
+subtitle: My python projects for now.
 ---
