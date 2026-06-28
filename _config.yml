@@ -302,5 +302,5 @@ collections:
     permalink: /projects/:name
   euler_solutions:
     output: true
-    permalink: /solutions/project-euler/:name
+    permalink: /euler-solutions/:name
 
