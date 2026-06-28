@@ -23,6 +23,9 @@ navbar-links:
   About Me: "aboutme"
   Projects: "projects"
   Lectures Notes: "lecturenotes"
+  Solutions:
+  - Project Euler: "euler_solutions"
+  - X Lectures: "x_solutions"
 
 ################
 # --- Logo --- #
