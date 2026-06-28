@@ -1,16 +1,33 @@
 ---
 layout: post
 title: "Largest Polindrome of three digit numbers of two"
-subtitle: "My Python solution for the first Project Euler challenge"
+subtitle: "My Python solution for the Palindrome Project Euler challenge"
 ---
 
 ### Problem Description
-If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000.
+Find the largest palindrome made from the product of two 3-digit numbers.
 
 ### Solution Code
 ```python
-def solve_problem_1():
-    total_sum = sum(x for x in range(1000) if x % 3 == 0 or x % 5 == 0)
-    return total_sum
-
-print(solve_problem_1())
+def check(n):
+    nums = [int(d) for d in str(n)]
+    length = len(nums)
+    if length < 6:
+        return 0
+    for i in range(0,int(round(length/2))):
+        if nums[i] != nums[5-i]:
+            return 0
+    return n
+def finder():
+    multipler = 990
+    num = 999
+    list = []
+    while multipler >= 110:
+        list.append(check(multipler*num))
+        if num > 99:
+            num -=1
+        else:
+            num = 999
+            multipler -= 11
+    return max(list)
+print(finder())
