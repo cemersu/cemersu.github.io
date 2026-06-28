@@ -300,4 +300,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
+  euler_solutions:
+    output: true
+    permalink: /solutions/project-euler/:name
 
