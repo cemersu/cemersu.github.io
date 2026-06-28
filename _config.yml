@@ -24,7 +24,7 @@ navbar-links:
   Projects: "projects"
   Lectures Notes: "lecturenotes"
   Solutions:
-  - Project Euler: "euler_solutions"
+  - Project Euler: "eulersolutions"
   - X Lectures: "x_solutions"
 
 ################
