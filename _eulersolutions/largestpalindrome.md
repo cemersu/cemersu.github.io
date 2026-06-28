@@ -17,13 +17,14 @@ def check(n):
 def finder():
     multipler = 990
     num = 999
-    list = []
+    palindromes = []
     while multipler >= 110:
-        list.append(check(multipler*num))
+        palindromes.append(check(multipler*num))
         if num > 99:
             num -=1
         else:
             num = 999
             multipler -= 11
-    return max(list)
+    return max(palindromes)
 print(finder())
+```
