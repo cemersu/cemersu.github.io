@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ersulabs.com/al-folio/sitemap.xml
+Sitemap: https://ersulabs.com/sitemap.xml
