@@ -25,7 +25,8 @@
       "area": "Mathematics",
       "studyType": "Bachelor of Science (B.Sc.)",
       "startDate": "2026-09-01",
-      "endDate": "Present"
+      "endDate": "Present",
+      "summary": "Undergraduate studies focusing on pure mathematics and theoretical sciences."
     },
     {
       "institution": "Istanbul Technical University (İTÜ)",
@@ -33,28 +34,26 @@
       "area": "Marine Machinery Operating Engineering",
       "studyType": "Undergraduate Studies (Discontinued)",
       "startDate": "2022-09-01",
-      "endDate": "2025-04-01",
-      "summary": "Completed 3 years of study before discontinuing to pursue personal ideals and dedicate focus to mathematics."
+      "endDate": "2025-06-01",
+      "summary": "Completed 3 years of study before discontinuing to pursue personal ideals and dedicate focus to pure mathematics."
     }
   ],
-  "awards": [
+ "awards": [
     {
       "title": "National University Entrance Examination (YKS)",
-      "date": "2026-07-21",
-      "awarder": "Student Selection and Placement Center (ÖSYM)",
-      "summary": "Ranked 9,391st in national university exam."
+      "date": "2026-06-01",
+      "awarder": "ÖSYM",
+      "summary": "Ranked 9,391st nationwide in the National University Entrance Examination."
     }
   ],
   "languages": [
     {
       "language": "Turkish",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native speaker"
     },
     {
       "language": "English",
-      "fluency": "Professional working proficiency",
-      "icon": ""
+      "fluency": "Professional working proficiency"
     }
   ]
 }
