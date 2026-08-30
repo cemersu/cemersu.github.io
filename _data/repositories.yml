@@ -1,14 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - cemersu
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - cemersu/GOZCU-v4-by-METEORITO-TUA-HACKATON
